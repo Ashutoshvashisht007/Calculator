@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle closest-corner at center 50vh, rgb(122, 13, 13), rgb(217, 184, 184) 40%) no-repeat;
+    
+}
+
+.container {
+    background-color: white;
+    width: 35vw;
+    /* height: 50vh; */
+    width: 100%;
+    border-radius: 1em;
+    border: none;
+    max-width: 400px;
+}
+
+h1{
+    margin: 10px;
+    text-align: center;
+}
+
+.search {
+    display: block;
+    text-align: center;
+}
+
+.search-bar {
+    margin: 13px 0;
+    border: solid gray;
+    border-radius: 1em;
+    padding: 5px 20px;
+    width: calc(100% - 180px);
+}
+
+.Clear input[type="button"] {
+    border: #222;
+    border-radius: 2em;
+    height: 34px;
+    width: 20%;
+    background-color: aquamarine;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.row-1 {
+    margin: 0 10px;
+}
+
+.row-1 input[type="button"] {
+    border: #222;
+    border-radius: 2em;
+    width: 20%;
+    margin: 0 7px 7px;
+    height: 34px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.row-2 {
+    margin: 0 10px;
+}
+
+.row-2 input[type="button"] {
+    border: #222;
+    border-radius: 2em;
+    width: 20%;
+    margin: 0 7px 7px;
+    height: 34px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.row-3 {
+    margin: 0 10px;
+}
+
+.row-3 input[type="button"] {
+    border: #222;
+    border-radius: 2em;
+    width: 20%;
+    margin: 0 7px 7px;
+    height: 34px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.row-4 {
+    margin: 0 12px 10px 10px;
+}
+
+.row-4 input[type="button"] {
+    border: #222;
+    border-radius: 2em;
+    width: 20%;
+    margin: 0 7px 7px;
+    height: 34px;
+    background-color: aquamarine;
+    cursor: pointer;
+}

@@ -1,0 +1,62 @@
+@media only screen and (max-width: 400px) {
+    .search input[type="button"] {
+        width: 31px;
+        height: 31px;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .row-1{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .row-1 input[type="button"] {
+        width: 36px;
+        height: 36px;
+        
+    }
+    .row-2{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .row-2 input[type="button"] {
+        width: 36px;
+        height: 36px;
+        
+    }
+    .row-3{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .row-3 input[type="button"] {
+        width: 36px;
+        height: 36px;
+        
+    }
+    .row-4{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .row-4 input[type="button"] {
+        width: 36px;
+        height: 36px;
+        
+    }
+}
+
+@media only screen and (max-width: 200px)
+{
+    h1{
+        font-size: 80%;
+    }
+}
